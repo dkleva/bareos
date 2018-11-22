@@ -212,7 +212,7 @@ Pool Resource
 
 -  | :raw-latex:`\linkResourceDirective{Dir}{Pool}{Storage}`
    | if Copy/Migration involves multiple Storage Daemon, see
-     .. _sec:CopyMigrationJobsMultipleStorageDaemons: 
+     :ref:`sec:CopyMigrationJobsMultipleStorageDaemons`
 
 Example Migration Jobs
 ~~~~~~~~~~~~~~~~~~~~~~

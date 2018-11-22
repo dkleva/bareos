@@ -14,7 +14,7 @@ that:
    :raw-latex:`\linkResourceDirective{Dir}{Client}{Address}`. Address
    can be the DNS name or the IP address. (For completeness: there are
    potential workarounds by using the
-   :ref:`setip bcommandSetIP` command.)
+   :ref:`bcommandSetIP setip` command.)
 
 -  The :raw-latex:`\bareosDir `must be able to connect to the
    :raw-latex:`\bareosFd `over the network.

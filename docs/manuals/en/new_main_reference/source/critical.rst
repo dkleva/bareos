@@ -45,13 +45,13 @@ are in production, use the checklist anyway).
 -  Do at least one restore of files. If you backup multiple OS types
    (Linux, Solaris, HP, MacOS, FreeBSD, Win32, ...), restore files from
    each system type. The
-   :ref:`Restoring Files RestoreChapter` chapter shows
+   :ref:`RestoreChapter Restoring Files` chapter shows
    you how.
 
 -  Write a bootstrap file to a separate system for each backup job. See
    :raw-latex:`\linkResourceDirective{Dir}{Job}{Write Bootstrap}`
    directive and more details are available in the
-   .. _BootstrapChapter:  chapter. Also, the default
+   :ref:`BootstrapChapter` chapter. Also, the default
    *bareos-dir.conf* comes with a Write Bootstrap
    directive defined. This allows you to recover the state of your
    system as of the last backup.
@@ -60,7 +60,7 @@ are in production, use the checklist anyway).
    bareos-dir.conf file. The backup script is installed by default and
    should handle any database, though you may want to make your own
    local modifications. See also
-   :ref:`Backing Up Your Bareos Database BackingUpBareos`
+   :ref:`BackingUpBareos Backing Up Your Bareos Database`
    for more information.
 
 -  Write a bootstrap file for the catalog. An example of this is found
@@ -93,19 +93,19 @@ Recommended Items
 Although these items may not be critical, they are recommended and will
 help you avoid problems.
 
--  Read the .. _QuickStartChapter:  chapter
+-  Read the :ref:`QuickStartChapter` chapter
 
 -  After installing and experimenting with Bareos, read and work
    carefully through the examples in the
-   .. _TutorialChapter:  chapter of this manual.
+   :ref:`TutorialChapter` chapter of this manual.
 
--  Learn what each of the .. _sec:Utilities:  does.
+-  Learn what each of the :ref:`sec:Utilities` does.
 
 -  | Set up reasonable retention periods so that your catalog does not
      grow to be too big. See the following three chapters:
-   | .. _RecyclingChapter: ,
-   | .. _DiskChapter: ,
-   | .. _PoolsChapter: .
+   | :ref:`RecyclingChapter`,
+   | :ref:`DiskChapter`,
+   | :ref:`PoolsChapter`.
 
 If you absolutely must implement a system where you write a different
 tape each night and take it offsite in the morning. We recommend that

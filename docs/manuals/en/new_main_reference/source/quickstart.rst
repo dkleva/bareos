@@ -57,7 +57,7 @@ your Job, you specify a Pool, and Bareos will select the next appendable
 Volume from the Pool and mounts it.
 
 Although the basic Pool options are specified in the Director’s
-:ref:`Pool DirectorResourcePool` resource, the real Pool
+:ref:`DirectorResourcePool Pool` resource, the real Pool
 is maintained in the Bareos Catalog. It contains information taken from
 the Pool resource (configuration file) as well as information on all the
 Volumes that have been added to the Pool.
@@ -84,7 +84,7 @@ Pool in the daily and weekly backup Jobs, you thereby insure that no
 daily Job ever writes to a Volume in the Weekly Pool and vice versa, and
 Bareos will tell you what tape is needed and when.
 
-For more on Pools, see the .. _DirectorResourcePool: 
+For more on Pools, see the :ref:`DirectorResourcePool`
 section of the Director Configuration chapter, or simply read on, and we
 will come back to this subject later.
 
@@ -105,8 +105,8 @@ the default configuration is stored as one file per resource in
 subdirectories under *bareos-dir.d*,
 *bareos-sd.d* or
 *bareos-fd.d*. For details, see
-.. _ConfigureChapter:  and
-.. _sec:SubdirectoryConfigurationScheme: .
+:ref:`ConfigureChapter` and
+:ref:`sec:SubdirectoryConfigurationScheme`.
 
 Testing your Configuration Files
 ================================

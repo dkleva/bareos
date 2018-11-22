@@ -47,7 +47,7 @@ modification time, size and the checksum of the file to choose between
 the current backup and the BaseJob file list. You can change this
 behavior with the ``BaseJob`` FileSet option. This option works like the
 :raw-latex:`\configdirective{Verify}`, that is described in the
-:ref:`FileSet FileSetResource` chapter.
+:ref:`FileSetResource FileSet` chapter.
 
 ::
 

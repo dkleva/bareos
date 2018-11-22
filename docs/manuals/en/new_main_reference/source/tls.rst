@@ -19,7 +19,7 @@ code to provide secure network transport similar to that offered by
 :command:`stunnel}` or :raw-latex:`\command{ssh`. The data
 written to Volumes by the Storage daemon is not encrypted by this code.
 For data encryption, please see the
-.. _DataEncryption:  chapter.
+:ref:`DataEncryption` chapter.
 
 The initial Bacula encryption implementation has been written by Landon
 Fuller.
@@ -150,7 +150,7 @@ own certificates.
 Bareos is known to work well with RSA certificates.
 
 You can use programs like
-`xca <http://xca.sourceforge.net/>`_ or TinyCA to
+:ref:`xca http://xca.sourceforge.net/` or TinyCA to
 easily manage your own CA with a Graphical User Interface.
 
 Example TLS Configuration Files

@@ -14,7 +14,7 @@ What is Implemented
 
    -  Network backup/restore with centralized Director.
 
-   -  Internal scheduler for automatic :ref:`Job JobDef`
+   -  Internal scheduler for automatic :ref:`JobDef Job`
       execution.
 
    -  Scheduling of multiple Jobs at the same time.
@@ -24,7 +24,7 @@ What is Implemented
 
    -  Job sequencing using priorities.
 
-   -  :ref:`Console UADef` interface to the Director
+   -  :ref:`UADef Console` interface to the Director
       allowing complete control. Some GUIs are also available.
 
 -  Security
@@ -35,11 +35,11 @@ What is Implemented
    -  CRAM-MD5 password authentication between each component (daemon).
 
    -  Configurable
-      :ref:`TLS (SSL) communications encryption CommEncryption`
+      :ref:`CommEncryption TLS (SSL) communications encryption`
       between each component.
 
    -  Configurable
-      :ref:`Data (on Volume) encryption DataEncryption`
+      :ref:`DataEncryption Data (on Volume) encryption`
       on a Client by Client basis.
 
    -  Computation of MD5 or SHA1 signatures of the file data if
@@ -85,7 +85,7 @@ What is Implemented
    -  Multi-volume saves. When a Volume is full, **Bareos**
       automatically requests the next Volume and continues the backup.
 
-   -  :ref:`Pool and Volume DirectorResourcePool` library
+   -  :ref:`DirectorResourcePool Pool and Volume` library
       management providing Volume flexibility (e.g. monthly, weekly,
       daily Volume sets, Volume sets segregated by Client, ...).
 
@@ -96,7 +96,7 @@ What is Implemented
    -  The Volume data format is upwards compatible so that old Volumes
       can always be read.
 
-   -  A flexible :ref:`message MessagesChapter` handler
+   -  A flexible :ref:`MessagesChapter message` handler
       including routing of messages from any daemon back to the Director
       and automatic email reporting.
 
@@ -246,11 +246,11 @@ Items to Note
    directory or move a whole directory into the backup fileset after a
    Full backup, those files will probably not be backed up by an
    Incremental save because they will have old dates. This problem is
-   corrected by using :ref:`Accurate mode accuratemode`
+   corrected by using :ref:`accuratemode Accurate mode`
    backups or by explicitly updating the date/time stamp on all moved
    files.
 
 -  In non Accurate mode, files deleted after a Full save will be
    included in a restoration. This is typical for most similar backup
    programs. To avoid this, use
-   :ref:`Accurate mode accuratemode` backup.
+   :ref:`accuratemode Accurate mode` backup.

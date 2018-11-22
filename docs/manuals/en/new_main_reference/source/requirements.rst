@@ -14,7 +14,7 @@ System Requirements
    -  PostgreSQL 8.4 (since Bareos 13.2.3)
 
    -  MySQL 4.1 - 5.6 or compatible fork (e.g. MariaDB), see
-      .. _sec:MysqlSupport: 
+      :ref:`sec:MysqlSupport`
 
    -  SQLite 3
 

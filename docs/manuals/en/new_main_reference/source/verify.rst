@@ -98,7 +98,7 @@ used during the subsequent **Catalog** Jobs to specify what attributes
 of the files should be compared to those found in the catalog. **pins1**
 is a reasonable set to begin with, but you may want to look at the
 details of these and other options. They can be found in the
-:ref:`FileSet Resource FileSetResource` section of this
+:ref:`FileSetResource FileSet Resource` section of this
 manual. Briefly, however, the **p** of the **pins1** tells Verify to
 compare the permissions bits, the **i** is to compare inodes, the **n**
 causes comparison of the number of links, the **s** compares the file

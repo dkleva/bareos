@@ -39,7 +39,7 @@ until it is written to tape.
 
 Bareos also supports writing a backup to disk then later migrating or
 moving it to a tape (or any other medium). For details on this, please
-see the .. _MigrationChapter:  chapter of this manual
+see the :ref:`MigrationChapter` chapter of this manual
 for more details.
 
 The remainder of this chapter explains the various directives that you

@@ -10,7 +10,7 @@ FDL
 .. index:: 
    triple: General; License; FDL
 
-The :ref:`GNU Free Documentation License (FDL) fdl` is
+The :ref:`fdl GNU Free Documentation License (FDL)` is
 used for this manual, which is a free and open license. This means that
 you may freely reproduce it and even make changes to it.
 
@@ -22,7 +22,7 @@ AGPL
    triple: General; License; AGPL
 
 The vast bulk of the source code is released under the
-:ref:`GNU Affero General Public License (AGPL) version 3 agpl`.
+:ref:`agpl GNU Affero General Public License (AGPL) version 3`.
 
 Most of this code is copyrighted: Copyright ©2000-2012 Free Software
 Foundation Europe e.V.
@@ -40,7 +40,7 @@ LGPL
    triple: General; License; LGPL
 
 Some of the Bareos library source code is released under the
-:ref:`GNU Lesser General Public License (LGPL) lgpl`.
+:ref:`lgpl GNU Lesser General Public License (LGPL)`.
 This permits third parties to use these parts of our code in their
 proprietary programs to interface to Bareos.
 

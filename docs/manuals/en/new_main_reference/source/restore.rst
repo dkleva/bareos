@@ -14,7 +14,7 @@ not possible to restore files by automatically starting a job as you do
 with Backup, Verify, ... jobs. However, in addition to the console
 restore command, there is a standalone program named **bextract**, which
 also permits restoring files. For more information on this program,
-please see the :ref:`Bareos Utility Programs bextract`
+please see the :ref:`bextract Bareos Utility Programs`
 chapter of this manual. We don’t particularly recommend the **bextract**
 program because it lacks many of the features of the normal Bareos
 restore, such as the ability to restore Win32 files to Unix systems, and
@@ -26,7 +26,7 @@ You may also want to look at the **bls** program in the same chapter,
 which allows you to list the contents of your Volumes. Finally, if you
 have an old Volume that is no longer in the catalog, you can restore the
 catalog entries using the program named **bscan**, documented in the
-same :ref:`Bareos Utility Programs bscan` chapter.
+same :ref:`bscan Bareos Utility Programs` chapter.
 
 In general, to restore a file or a set of files, you must run a
 **restore** job. That is a job with **Type = Restore**. As a
@@ -77,7 +77,7 @@ If a Job’s file records have been pruned from the catalog, the
 **restore** command will be unable to find any files to restore. Bareos
 will ask if you want to restore all of them or if you want to use a
 regular expression to restore only a selection while reading media. See
-:ref:`FileRegex option FileRegex` and below for more
+:ref:`FileRegex FileRegex option` and below for more
 details on this.
 
 Within the Console program, after entering the **restore** command, you
@@ -734,7 +734,7 @@ However, case, you could use the **strip_prefix=/.snap** and
 original location – that is ``/home/eric/mbox``.
 
 To use this feature, there are command line options as described in the
-:ref:`restore section restorefilerelocation` of this
+:ref:`restorefilerelocation restore section` of this
 manual; you can modify your restore job before running it; or you can
 add options to your restore job in as described in
 :raw-latex:`\linkResourceDirective{Dir}{Job}{Strip Prefix}` and

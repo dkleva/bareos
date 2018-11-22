@@ -22,7 +22,7 @@ rewritten.
 You may not want Bareos to automatically recycle (reuse) tapes. This
 would require a large number of tapes though, and in such a case, it is
 possible to manually recycle tapes. For more on manual recycling, see
-the .. _manualrecycling:  chapter.
+the :ref:`manualrecycling` chapter.
 
 Most people prefer to have a Pool of tapes that are used for daily
 backups and recycled once a week, another Pool of tapes that are used
@@ -79,7 +79,7 @@ is full, you can use one or more additional directives such as:
       \linkResourceDirective{Dir}{Pool}{Maximum Volume Bytes}
 
 Please see below and the
-:ref:`Basic Volume Management DiskChapter` chapter of
+:ref:`DiskChapter Basic Volume Management` chapter of
 this manual for complete examples.
 
 Automatic recycling of Volumes is performed by Bareos only when it wants
@@ -159,7 +159,7 @@ usually do this when you want to reuse a Bareos volume, because there’s
 no point in keeping a list of files that USED TO BE on a tape. Or, if
 the catalog is starting to get too big, you could prune the oldest jobs
 to save space. Manual pruning is done with the
-:ref:`prune command ManualPruning` in the console.
+:ref:`ManualPruning prune command` in the console.
 
 Pruning Directives
 ------------------
@@ -771,7 +771,7 @@ Manually Recycling Volumes
    triple: General; Recycle; Manual
 
 Although automatic recycling of Volumes is implemented (see the
-.. _RecyclingChapter:  chapter of this manual), you may
+:ref:`RecyclingChapter` chapter of this manual), you may
 want to manually force reuse (recycling) of a Volume.
 
 Assuming that you want to keep the Volume name, but you simply want to

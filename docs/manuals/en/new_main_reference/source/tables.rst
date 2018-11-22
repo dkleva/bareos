@@ -4,7 +4,7 @@ Catalog Tables
 .. index:: General; Catalog 
 
 Bareos stores its information in a database, named Catalog. It is
-configured by .. _DirectorResourceCatalog: .
+configured by :ref:`DirectorResourceCatalog`.
 
 Job
 ---

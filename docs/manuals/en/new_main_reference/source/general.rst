@@ -22,16 +22,16 @@ History
 -------
 
 Bareos is a
-`fork <http://www.bareos.org/en/faq/items/why_fork.html>`_
+:ref:`fork http://www.bareos.org/en/faq/items/why_fork.html`
 of the open source project
-`Bacula <http://www.bacula.org>`_ version 5.2. In 2010
+:ref:`Bacula http://www.bacula.org` version 5.2. In 2010
 the Bacula community developer Marco van Wieringen started to collect
 rejected or neglected community contributions in his own branch. This
 branch was later on the base of Bareos and since then was enriched by a
 lot of new features.
 
 This documentation also bases on the
-`original Bacula documentation <http://www.bacula.org/5.2.x-manuals/en/main/main/>`_,
+:ref:`original Bacula documentation http://www.bacula.org/5.2.x-manuals/en/main/main/`,
 it is technically also a fork of the documenation created following the
 rules of the GNU Free Documentation License.
 
@@ -39,7 +39,7 @@ Original author of Bacula and it’s documentation is Kern Sibbald. We
 thank Kern and all contributors to Bacula and it’s documentation. We
 maintain a list of contributors to Bacula (until the time we’ve started
 the fork) and Bareos in our
-`AUTHORS <https://github.com/bareos/bareos/blob/master/AUTHORS>`_
+:ref:`AUTHORS https://github.com/bareos/bareos/blob/master/AUTHORS`
 file.
 
 Who Needs Bareos?
@@ -95,7 +95,7 @@ The Bareos Console (:command:`bconsole`) is the program that
 allows the administrator or user to communicate with the
  |bareosDir| . It runs in a shell window (i.e. TTY interface).
 Most system administrators will find this completely adequate. For more
-details see the .. _sec:bconsole: .
+details see the :ref:`sec:bconsole`.
 
 .. _FDDef:
 
@@ -200,7 +200,7 @@ bareos-16.2.4:
 -  4: this is the first stable release of the bareos-16.2 branch
 
 For details about the different releases see
-.. _releasenotes: .
+:ref:`releasenotes`.
 
 .. _sec:BareosPackages:
 
@@ -308,7 +308,7 @@ Following Bareos Linux packages are available (release 17.2.4):
 
 Not all packages (especially optional backends and plugins) are
 available on all platforms. For details, see
-.. _sec:packages: .
+:ref:`sec:packages`.
 
 Additionally, packages containing debug information are available. These
 are named differently depending on the distribution
@@ -346,14 +346,14 @@ Quick Start
 To get Bareos up and running quickly, the author recommends that you
 first scan the Terminology section below, then quickly review the next
 chapter entitled
-:ref:`The Current State of Bareos StateChapter`, then the
-:ref:`Installing Bareos InstallChapter`, the
-:ref:`Getting Started with Bareos QuickStartChapter`,
+:ref:`StateChapter The Current State of Bareos`, then the
+:ref:`InstallChapter Installing Bareos`, the
+:ref:`QuickStartChapter Getting Started with Bareos`,
 which will give you a quick overview of getting Bareos running. After
 which, you should proceed to the chapter
-:ref:`How to Configure Bareos ConfigureChapter`, and
+:ref:`ConfigureChapter How to Configure Bareos`, and
 finally the chapter on
-:ref:`Running Bareos TutorialChapter`.
+:ref:`TutorialChapter Running Bareos`.
 
 Terminology
 -----------
@@ -448,7 +448,7 @@ FileSet
     defines the files to be backed up. It consists of a list of included
     files or directories, a list of excluded files, and how the file is
     to be stored (compression, encryption, signatures). For more
-    details, see the .. _DirectorResourceFileSet:  in
+    details, see the :ref:`DirectorResourceFileSet` in
     the Director chapter of this document.
 
 Incremental
@@ -466,7 +466,7 @@ Job
     restore, verify, etc), the **Level** (full, differential,
     incremental, etc.), the **FileSet**, and **Storage** the files are
     to be backed up (Storage device, Media Pool). For more details, see
-    the .. _DirectorResourceJob:  in the Director
+    the :ref:`DirectorResourceJob` in the Director
     chapter of this document.
 
 Monitor
@@ -496,7 +496,7 @@ Schedule
     resource that defines when the Bareos Job will be scheduled for
     execution. To use the Schedule, the Job resource will refer to the
     name of the Schedule. For more details, see the
-    .. _DirectorResourceSchedule:  in the Director
+    :ref:`DirectorResourceSchedule` in the Director
     chapter of this document.
 
 Service
@@ -616,7 +616,7 @@ What Bareos is Not
 Bareos is a backup, restore and verification program and is not a
 complete disaster recovery system in itself, but it can be a key part of
 one if you plan carefully and follow the instructions included in the
-:ref:`Disaster Recovery RescueChapter` chapter of this
+:ref:`RescueChapter Disaster Recovery` chapter of this
 manual.
 
 Interactions Between the Bareos Services

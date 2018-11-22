@@ -143,7 +143,7 @@ configuration is required:
 
 :raw-latex:`\linkResourceDirective{Dir}{Job}{Always Incremental Max Full Age}`
     is described later, see
-    .. _sec:AlwaysIncrementalMaxFullAge: .
+    :ref:`sec:AlwaysIncrementalMaxFullAge`.
 
 Consolidate Job
 ~~~~~~~~~~~~~~~
@@ -170,7 +170,7 @@ Consolidate Job
 
 :raw-latex:`\linkResourceDirective{Dir}{Job}{Max Full Consolidations}`
     is described later, see
-    .. _sec:MaxFullConsolidations: .
+    :ref:`sec:MaxFullConsolidations`.
 
 The **Consolidate** job evaluates all jobs configured
 with
@@ -194,7 +194,7 @@ Storages and Pools
 ~~~~~~~~~~~~~~~~~~
 
 For the Always Incremental Backup Scheme at least two storages are
-needed. See .. _sec:MultipleStorageDevices:  how to
+needed. See :ref:`sec:MultipleStorageDevices` how to
 setup multiple storages.
 
 .. raw:: latex
@@ -248,7 +248,7 @@ setup multiple storages.
    \end{bareosConfigResource}
 
 **AI-Longterm** is optional and will be explained in
-.. _sec:AlwaysIncrementalLongTermStorage: .
+:ref:`sec:AlwaysIncrementalLongTermStorage`.
 
 How it works
 ------------

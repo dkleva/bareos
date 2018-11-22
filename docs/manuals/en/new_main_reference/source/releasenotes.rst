@@ -10,7 +10,7 @@ Open issues for a specific version are shown at
 http://bugs.bareos.org/roadmap_page.php.
 
 The overview about new feature of a release are shown at
-https://github.com/bareos/bareos and in the .. _index: 
+https://github.com/bareos/bareos and in the :ref:`index`
 of this document.
 
 This chapter concentrates on things to do when updating an existing
